@@ -268,7 +268,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
     OWNER_INFO = """
 <b>┏━•❃𓊈𒆜Oᴡɴᴇʀ Dᴇᴛᴀɪʟꜱ𒆜𓊉❃•━┓   
- ◈ ᴛɢ ɴᴀᴍᴇ : ⚝sheffy_samra⚝
+ ◈ ᴛɢ ɴᴀᴍᴇ : ⚝🦋🥀𝗗ᾰ𝐫𝙺𝗗èνⲓＬ🥀🦋⚝
  ◈ ɴɪᴄᴋɴᴀᴍᴇ : samra
  ◈ ᴜꜱᴇʀɴᴀᴍᴇ : <a href='t.me/DwayneJohnsonl'>𝙐𝙎𝙀𝙍𝙉𝘼𝙈𝙀</a>
  ◈ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/DwayneJohnsonl'>🦋🥀𝗗ᾰ𝐫𝙺𝗗èνⲓＬ🥀🦋</a></b>
