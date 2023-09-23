@@ -23,10 +23,10 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🥰 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🥰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('☯︎ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ☯︎', url=f'https://t.me/{SUPPORT_CHAT}'),
-                    InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('🔱 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🔱', url=f'https://t.me/{SUPPORT_CHAT}'),
+                    InlineKeyboardButton('⚜ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ⚜', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('💸 Eᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💰', callback_data="shortlink_info")
                   ]]
@@ -43,12 +43,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🥰 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🥰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('🆘 Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟs ✇', callback_data="chnl_info")
+                    InlineKeyboardButton('⚜ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟs ⚜', callback_data="chnl_info")
                 ],[
                     InlineKeyboardButton('💸 Eᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💰', callback_data="shortlink_info")
                   ]]
@@ -95,12 +95,12 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🥰 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🥰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('🆘 Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✇  Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟs ✇', callback_data="chnl_info")
+                    InlineKeyboardButton('⚜ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟs ⚜', callback_data="chnl_info")
                 ],[
                     InlineKeyboardButton('💸 Eᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💰', callback_data="shortlink_info")
                   ]]
@@ -334,7 +334,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/moviescrown123")
+                      InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/Cinemaa_Boxoffice")
                      ]
                     ]
                 )
@@ -398,7 +398,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/moviescrown123")
+                      InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/Cinemaa_Boxoffice")
                      ]
                     ]
                 )
@@ -460,7 +460,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/moviescrown123")
+              InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/Cinemaa_Boxoffice")
              ]
             ]
         )
