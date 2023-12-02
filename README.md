@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="(https://graph.org/file/399fb28be5a5606b4f2f5.jpg)" alt="Cinemaa_boxoffice LOGO">
+  <img src="https://graph.org/file/399fb28be5a5606b4f2f5.jpg" alt="Cinemaa_boxoffice LOGO">
 </p>
 <h1 align="center">
   CINEMAA_BOXOFFICE BOT
