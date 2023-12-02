@@ -334,7 +334,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/Cinemaa_Boxoffice")
+                      InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/UPDATE_ALL_MOVIE")
                      ]
                     ]
                 )
@@ -398,7 +398,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/Cinemaa_Boxoffice")
+                      InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/UPDATE_ALL_MOVIE")
                      ]
                     ]
                 )
@@ -460,7 +460,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/Cinemaa_Boxoffice")
+              InlineKeyboardButton("⚜️Update Channel⚜️", url="t.me/UPDATE_ALL_MOVIE")
              ]
             ]
         )
