@@ -85,7 +85,7 @@ async def start(client, message):
             except (IndexError, ValueError):
                 btn.append([InlineKeyboardButton("🔄 Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
-            photo = "https://telegra.ph/file/b2d67c553fd77a1184cbc.jpg",
+            photo = "https://graph.org/file/b2286d1499c081bb89156.jpg",
             chat_id=message.from_user.id,
             # text="**You are not in our channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
             caption=script.FORCE_SUB,
